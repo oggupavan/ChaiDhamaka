@@ -65,6 +65,13 @@
             }
         }
     });
-    
+
 })(jQuery);
 
+function redirectToWhatsApp() {
+    // Replace the phone number and message with your desired values
+    var phoneNumber = "+918884249383"; // Replace with the phone number you want to send the message to
+    var message = "Hello from WhatsApp!"; // Replace with the message you want to send
+    var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+    window.location.href = url;
+}
