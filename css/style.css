@@ -9652,3 +9652,9 @@ h6,
   background-repeat: no-repeat;
   background-size: cover;
 }
+.aboutBg{
+  padding: 10px;
+   border-radius: 45px;
+color: #33211D;
+background: #DA9F5B;
+}
